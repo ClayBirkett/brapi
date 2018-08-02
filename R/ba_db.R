@@ -117,11 +117,11 @@ ba_db <- function() {
                       bms = FALSE)
   t3s <- as.ba_db(secure = TRUE,
                   protocol = "https://",
-                  db = "t3sandbox.org",
+                  db = "triticeaetoolbox.org",
                   port = 80,
-                  apipath = "t3",
+                  apipath = "wheat",
                   multicrop = TRUE,
-                  crop = "wheatplus",
+                  crop = "wheat",
                   user = "",
                   password = "",
                   bms = FALSE)
